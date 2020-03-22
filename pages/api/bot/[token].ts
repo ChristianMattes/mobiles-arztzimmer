@@ -151,7 +151,7 @@ bot.on("message", async ctx => {
     return
   }
 
-  if (message?.text?.startsWith("/ichbinarzt")) {
+  if (message?.text?.startsWith("/ichbinmediziner")) {
     reply("Schön, dass Du unterstützen möchtest!")
     return
   }
